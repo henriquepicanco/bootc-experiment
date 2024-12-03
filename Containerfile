@@ -11,3 +11,6 @@ RUN dnf install -y \
 
 # Instalar o driver da NVIDIA
 RUN dnf install akmod-nvidia -y
+
+# Limpar tudo
+RUN dnf clean all
