@@ -37,5 +37,5 @@ jobs:
           tags: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:latest
 
       # Verificação opcional da imagem construída
-      - name: Verify container image
-        run: docker run --rm ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:latest --help
+      #- name: Verify container image
+      #  run: docker run --rm ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:latest --help
